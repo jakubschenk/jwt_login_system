@@ -65,7 +65,7 @@ var jwt;
 		  password: process.env.DB_PASSWORD,
 		  database: process.env.DB_DTBS
 		});*/
-		db = mysql.createConnection(CLEARDB_DATABASE_URL);
+		db = mysql.createConnection(process.env.CLEARDB_DATABASE_URL);
 		db.connect(function onConnect(err){
 			if(err){
 				console.log('Connection with database was not established: ', err);
