@@ -57,13 +57,15 @@ var jwt;
 
 
 	function recreateConnection() {
+		/*
 		db = mysql.createConnection({
 		  user: process.env.DB_USER,
 		  host: process.env.DB_HOST,
 			port: '/tmp/mysql.sock',
 		  password: process.env.DB_PASSWORD,
 		  database: process.env.DB_DTBS
-		});
+		});*/
+		db = mysql.createConnection(CLEARDB_DATABASE_URL);
 		db.connect(function onConnect(err){
 			if(err){
 				console.log('Connection with database was not established: ', err);
