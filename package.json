@@ -4,7 +4,7 @@
   "description": "base for auth",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "node server/index.js && cd client && npm start",
     "build": "cd client && npm install && npm run build"
   },
   "author": "Matt Gembicky",
