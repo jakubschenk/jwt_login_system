@@ -1,0 +1,7 @@
+.ErrorText {
+  color: var(--error);
+}
+
+.SuccessText {
+  color: var(--succes);
+}

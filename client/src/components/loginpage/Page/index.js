@@ -1,9 +1,6 @@
-import React from 'react'
-import { PageWrapper } from './Page.styles'
-import Boxes from '../Boxes'
-
-
-
+import React from "react";
+import { PageWrapper } from "./Page.styles";
+import Boxes from "../Boxes";
 
 const Page = () => {
   return (
@@ -11,6 +8,6 @@ const Page = () => {
       <Boxes />
     </PageWrapper>
   );
-}
+};
 
-export default Page
+export default Page;

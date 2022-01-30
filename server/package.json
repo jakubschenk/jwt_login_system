@@ -1,0 +1,35 @@
+{
+  "name": "standardjwt",
+  "version": "1.0.0",
+  "description": "base for auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "author": "Matt Gembicky",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^12.0.4",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  },
+  "engines": {
+    "node": "v17.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattGembicky/jwt_login_system.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/MattGembicky/jwt_login_system/issues"
+  },
+  "homepage": "https://github.com/MattGembicky/jwt_login_system#readme"
+}
